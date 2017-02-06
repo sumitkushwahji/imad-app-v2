@@ -8,10 +8,10 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
-var articleOne={
-    title:'article-one | sumit kushwah',
-    heading: 'Article-one',
+var articles= {
+'article-one': {
+    title: 'article-one | sumit kushwah',
+    heading: 'Article-One',
     date: '5 sep 2017',
     content:`<p>
 my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
@@ -23,8 +23,38 @@ my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sj
 <p>
 my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
 </p>`
-};
+},
+'article-two': {
+    title:'article-two | sumit kushwah',
+    heading: 'Article-Two',
+    date: '10 sep 2017',
+    content:`<p>
+my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
+</p>
+<p>
+my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
+</p>
 
+<p>
+my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
+</p>`
+},
+'article-three': {
+    title:'article-three | sumit kushwah',
+    heading: 'Article-three',
+    date: '5 oct 2017',
+    content:`<p>
+my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
+</p>
+<p>
+my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
+</p>
+
+<p>
+my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
+</p>`
+}
+};
 
 function createTemplate(data){ 
     var title= data.title;
@@ -60,19 +90,12 @@ function createTemplate(data){
 return htmlTemplate;
 }
 
-
-
-app.get('/article-one',function (req, res){
-  res.send(createTemplate(articleOne));
+app.get('/:articleName',function (req, res){
+  var articleName = req.params.articleName;
+  res.send(createTemplate(articles(articleName)));
 });
 
-app.get('/article-two',function (req, res){
-     res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
 
-app.get('/article-three',function (req, res){
-     res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
 
 
 app.get('/ui/style.css', function (req, res) {
