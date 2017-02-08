@@ -25,6 +25,7 @@ button.onclick = function() {
    httpRequest.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/counter', true);
 httpRequest.send(null);
 };
+//SUBMIT FORM
 var nameInput= document.getElementById('name');
 var name = nameInput.value;
 var submit =document.getElementById('submit_btn');
