@@ -8,17 +8,18 @@ button.onclick = function() {
     
     //capture the response and store it in a variable
     request.onreadystatechange= function(){
-    if (request.readyState == XMLHttpRequest.DONE){
+    if (request.readyState === XMLHttpRequest.DONE){
         
         //Take the action
-        if(request.status == 200){
+        if(request.status === 200){
             var counter = request.responseText;
             var span=document.getElementById('count');
             span.innerHTML =counter.toString();
         }
     }
+     //not done yet
     };
-    //not done yet
+   
     
    //make the request
    httpRequest.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/counter', true);
