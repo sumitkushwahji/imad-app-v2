@@ -1,6 +1,6 @@
 //counter code
 var button = document.getElementById('counter');
-
+var counter
 button.onclick = function() {
     
     //make a requwst to the computer
