@@ -49,9 +49,9 @@ my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sj
 </p>`,
 comment: `<div class ="fotter">
 <hr/>
-<input type="text" id="comment_box1" placeholder="comment" ></input>
-<input type="submit" value="comment" id="comment_btn1"></input>
-<ul id="commentlist">
+<input type="text" id="comment_box2" placeholder="comment" ></input>
+<input type="submit" value="comment" id="comment_btn2"></input>
+<ul id="commentlist2">
 
 </ul>
 </div>`
@@ -72,9 +72,9 @@ my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sj
 </p>`,
 comment: `<div class ="fotter">
 <hr/>
-<input type="text" id="comment_box1" placeholder="comment" ></input>
-<input type="submit" value="comment" id="comment_btn1"></input>
-<ul id="commentlist">
+<input type="text" id="comment_box3" placeholder="comment" ></input>
+<input type="submit" value="comment" id="comment_btn3"></input>
+<ul id="commentlist3">
 
 </ul>
 </div>`
