@@ -140,6 +140,17 @@ app.get('/submit-name',function(req, res)  //make request query parameters /subm
     res.send(JSON.stringify(names));
     
 });
+var names= [];
+app.get('/article-one',function(req, res)  //make request query parameters /submit-name?name=sumit
+{
+    //get the name from the request
+    var name=req.query.name;
+    
+    names.push(name);
+    //JSON: javascript OBject notation
+    res.send(JSON.stringify(names));
+    
+});
 
 app.get('/:articleName',function (req, res){
   var articleName = req.params.articleName;
