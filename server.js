@@ -22,15 +22,15 @@ my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sj
 
 <p>
 my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>`
- <div class ="fotter">
+</p>`,
+comment: `<div class ="fotter">
 <hr/>
 <input type="text" id="comment_box1" placeholder="comment" ></input>
 <input type="submit" value="comment" id="comment_btn1"></input>
 <ul id="commentlist">
 
 </ul>
-</div>
+</div>`
 
 },
 'article-two': {
@@ -93,6 +93,9 @@ function createTemplate(data){
         </p3>
         </div>
     ${content}
+        </div>
+        <div>
+        ${comment}
         </div>
     </body>
 </html>`;
