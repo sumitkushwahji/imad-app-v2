@@ -23,6 +23,15 @@ my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sj
 <p>
 my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
 </p>`
+ <div class ="fotter">
+<hr/>
+<input type="text" id="comment_box1" placeholder="comment" ></input>
+<input type="submit" value="comment" id="comment_btn1"></input>
+<ul id="commentlist">
+
+</ul>
+</div>
+
 },
 'article-two': {
     title:'article-two | sumit kushwah',
