@@ -110,10 +110,12 @@ function createTemplate(data){
         </p3>
         </div>
     ${content}
-        </div>
+     
         <div>
     ${comment}
         </div>
+           </div>
+    
     </body>
 </html>`;
 return htmlTemplate;
