@@ -49,6 +49,7 @@ submit.onclick = function(){
     ul.innerHTML = list;
         }
     }
+    };
     //make a request to the server and send the name
       request.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/submit-name?name=' + name, true);
    request.send(null);
