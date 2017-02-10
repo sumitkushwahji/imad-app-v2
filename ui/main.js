@@ -89,7 +89,7 @@ submit.onclick = function(){
     //make a request to the server and send the name
     var nameInput= document.getElementById('comment_box1');
 var name = nameInput.value;
-      request.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/article-one/comment?name=' + name, true);
+      request.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/article-one?name=' + name, true);
    request.send(null);
     
     
