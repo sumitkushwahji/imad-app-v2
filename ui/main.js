@@ -63,8 +63,8 @@ var name = nameInput.value;
 };
   
   //submit comment
-  var submit =document.getElementById('comment_btn1');
-submit.onclick = function(){
+  var submit2 =document.getElementById('comment_btn1');
+submit2.onclick = function(){
     
     //create a request object
     var request =new XMLHttpRequest();
