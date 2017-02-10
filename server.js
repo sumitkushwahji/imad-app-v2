@@ -27,7 +27,7 @@ comment: `<div class ="fotter">
 <hr/>
 <input type="text" id="comment_box1" placeholder="comment" ></input>
 <input type="submit" value="comment" id="comment_btn1"></input>
-<ul id="commentlist">
+<ul id="commentlist1">
 
 </ul>
 </div>`
