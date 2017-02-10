@@ -96,7 +96,7 @@ function createTemplate(data){
         <meta name= "viewport" content= "width-device=width , initial-scale=1"/>
        <link href="/ui/style.css" rel="stylesheet" />
        <script>
-        var submit =document.getElementById('comment_btn1');
+        var submit =document.getElementById('comment_btn2');
 submit.onclick = function(){
     
     //create a request object
@@ -114,7 +114,7 @@ submit.onclick = function(){
     for(var i=0;i< names.length; i++){
         list += '<li>'+ names[i] + '</li>';
     }
-    var ul=document.getElementById('commentlist1');
+    var ul=document.getElementById('commentlist2');
     ul.innerHTML = list;
         }
     }
@@ -122,7 +122,7 @@ submit.onclick = function(){
     //make a request to the server and send the name
     var nameInput= document.getElementById('comment_box1');
 var name = nameInput.value;
-      request.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/article-one?name=' + name, true);
+      request.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/article-two?name=' + name, true);
    request.send(null);
     
     
