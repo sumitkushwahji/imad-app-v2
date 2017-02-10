@@ -147,7 +147,7 @@ app.get('/:articleName',function (req, res){
 }); 
 
 var names= [];
-app.get('/:articleName/comment',function(req, res)  //make request query parameters /submit-name?name=sumit
+app.get('/:articleName',function(req, res)  //make request query parameters /submit-name?name=sumit
 {
     //get the name from the request
     var name=req.query.name;
