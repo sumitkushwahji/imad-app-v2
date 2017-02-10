@@ -95,43 +95,7 @@ function createTemplate(data){
         </title>
         <meta name= "viewport" content= "width-device=width , initial-scale=1"/>
        <link href="/ui/style.css" rel="stylesheet" />
-       <script>
-        var submit =document.getElementById('comment_btn2');
-submit.onclick = function(){
-    
-    //create a request object
-    var request =new XMLHttpRequest();
-    
-    //capture the response and store it in a variable
-    request.onreadystatechange= function () {
-    if (request.readyState === XMLHttpRequest.DONE){
-        
-        //Take the action
-        if(request.status === 200){
-       var names= request.responseText;
-    names = JSON.parse(names);
-    var list='';
-    for(var i=0;i< names.length; i++){
-        list += '<li>'+ names[i] + '</li>';
-    }
-    var ul=document.getElementById('commentlist2');
-    ul.innerHTML = list;
-        }
-    }
-    };
-    //make a request to the server and send the name
-    var nameInput= document.getElementById('comment_box1');
-var name = nameInput.value;
-      request.open('GET', 'http://sumitkushwahji.imad.hasura-app.io/article-two?name=' + name, true);
-   request.send(null);
-    
-    
-    
-    //capture a list of name and render it as a list
-   
-};
-       </script>
-    </head>
+          </head>
     <body>
       <div class="container">  <div>
          <a href="/">HOME</a>
@@ -177,7 +141,7 @@ app.get('/submit-name',function(req, res)  //make request query parameters /subm
     
 });
 var names= [];
-app.get('/article-one',function(req, res)  //make request query parameters /submit-name?name=sumit
+app.get('/article-one/comment',function(req, res)  //make request query parameters /submit-name?name=sumit
 {
     //get the name from the request
     var name=req.query.name;
