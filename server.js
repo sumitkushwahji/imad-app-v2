@@ -130,44 +130,7 @@ return htmlTemplate;
 
 var navigations={
     'Projects':{
-        heading:`<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<!-- #BeginEditable "doctitle" -->
-<title>Sumit kushwah</title>
-<style type="text/css">
-
-.float_right {
-	float:right;
-} 
-
-
-.auto-style1 {
-	text-align: right;
-}
-.auto-style2 {
-	text-align: left;
-}
-.auto-style4 {
-	font-size: medium;
-}
-</style>
-<!-- #EndEditable -->
-<link href="styles/style2.css" media="screen" rel="stylesheet" title="CSS" type="text/css" />
-<style type="text/css">
-.auto-style1 {
-	margin-right: 314px;
-}
-.auto-style2 {
-	margin-top: 0;
-}
-</style>
-</head>`,
-        masthead:`	<div id="masthead">
-		<img alt="" height="105" src="https://upload.wikimedia.org/wikipedia/commons/4/44/SATI_Vidisha.jpg" width="150" /><p>mobile (+91) 
-		94799-66498<br />
-		std (+91) (0) 11 26907-405<br />
-		</p>
-	</div>`,
+    
 	navigation:`<div id="navigation">
 		<ul>
 			<li><a href="index2.html">Home</a></li>
@@ -229,7 +192,38 @@ var navigations={
 	`
     },
     
-    'Training':{heading:`<head>
+    'Training':{
+       
+	navigation:`<div id="navigation">
+		<ul>
+			<li><a href="index2.html">Home</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="Training.html">Training</a></li>
+			<li><a href="index2.html">Technologies Deployed</a></li>
+			<li><a href="index2.html">Positions</a></li>
+			<li><a href="index2.html">Students</a></li>
+			<li><a href="index2.html">Collaborations</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>`,
+        content:`<p>This is my new page</p>`
+    }
+};
+
+function createTemplate2(data){
+    
+   
+    var navigation = data.navigation;
+    var content = data.content;
+    
+    
+    
+    var htmltemplate=`<!DOCTYPE html>
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "master.dwt" -->
+
+   <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <!-- #BeginEditable "doctitle" -->
 <title>Sumit kushwah</title>
@@ -260,49 +254,18 @@ var navigations={
 	margin-top: 0;
 }
 </style>
-</head>`,
-        masthead:`	<div id="masthead">
-		<img alt="" height="105" src="https://upload.wikimedia.org/wikipedia/commons/4/44/SATI_Vidisha.jpg" width="150" /><p>mobile (+91) 
-		94799-66498<br />
-		std (+91) (0) 11 26907-405<br />
-		</p>
-	</div>`,
-	navigation:`<div id="navigation">
-		<ul>
-			<li><a href="index2.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="Training.html">Training</a></li>
-			<li><a href="index2.html">Technologies Deployed</a></li>
-			<li><a href="index2.html">Positions</a></li>
-			<li><a href="index2.html">Students</a></li>
-			<li><a href="index2.html">Collaborations</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</div>`,
-        content:`<p>This is my new page</p>`
-    }
-};
-
-function createTemplate2(data){
-    var heading = data.heading;
-    var masthead= data.masthead;
-    var navigation = data.navigation;
-    var content = data.content;
-    
-    
-    
-    var htmltemplate=`<!DOCTYPE html>
-<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
-
-<!-- #BeginTemplate "master.dwt" -->
-
-    ${heading}
+</head>
 <body>
 
 <!-- Begin Container -->
 <div id="container">
 	<!-- Begin Masthead -->
-    ${masthead}
+   	<div id="masthead">
+		<img alt="" height="105" src="https://upload.wikimedia.org/wikipedia/commons/4/44/SATI_Vidisha.jpg" width="150" /><p>mobile (+91) 
+		94799-66498<br />
+		std (+91) (0) 11 26907-405<br />
+		</p>
+	</div>
 	<!-- End Masthead -->
 	<!-- Begin Navigation -->
 	${navigation}
