@@ -188,6 +188,29 @@ var navigations={
 			
 		</div>
 		</div>`
+    },
+    'Contact':{
+        content:`
+	<div id="page_content" style="left: 0px; top: 0px; width: 100%">
+		<!-- Begin Left Column -->
+		<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
+			<!-- #BeginEditable "content" -->
+		
+			<h3>Mailing Address</h3>
+			&nbsp;<p style="width: 317px">3/13 shivani complex B r<br />
+			vidhya vihar <br />
+			bhopal 426026 <br />
+			India</p>
+			<p style="width: 317px">&nbsp;<img alt="" height="186" src="images/map.PNG" width="413" /></p>
+			<h4>Landmarks</h4>
+			<ol>
+				<li>Vidhya vihar </li>
+				<li>Surendra Palace</li>
+			</ol>
+			<!-- #EndEditable --></div>
+		<!-- End Left Column -->
+		<!-- Begin Right Column -->
+		<!-- End Right Column --></div>`
     }
 };
 
