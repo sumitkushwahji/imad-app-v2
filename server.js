@@ -342,10 +342,7 @@ app.get('/submit-name',function(req, res)  //make request query parameters /subm
     
 });
 
-app.get('/:articleName',function (req, res){
-  var articleName = req.params.articleName;
-  res.send(createTemplate(articles[articleName]));
-}); 
+ 
 
 app.get('/:navigation',function (req, res){
   var navigation = req.params.navigation;
