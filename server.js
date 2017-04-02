@@ -167,7 +167,27 @@ var navigations={
     'Training':{
        
 
-        content:`<p>This is my new page</p>`
+        content:`
+        <!-- Begin Page Content -->
+	<div>
+		<!-- Begin Left Column -->
+		<div>
+			<!-- #BeginEditable "content" -->
+			<h2 class="auto-style4">&nbsp;</h2>
+			<h2 class="auto-style4">Industrial Training</h2>
+			<h3>Oracle 11g</h3>
+			<p>Institution: Sati vidisha</p>
+			<p>Oracle database (Oracle DB) is a relational database management system (RDBMS) from the Oracle Corporation</p>
+			
+			<h3>&nbsp;</h3>
+			<h3>Advance Java(JEE) </h3>
+			
+			<p>It is based on java technology for the development of Web Application</p>
+			
+			<h3>&nbsp;</h3>
+			
+		</div>
+		</div>`
     }
 };
 
