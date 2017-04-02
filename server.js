@@ -133,14 +133,14 @@ var navigations={
     
 	navigation:`<div id="navigation">
 		<ul>
-			<li><a href="index2.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="Training.html">Training</a></li>
-			<li><a href="index2.html">Technologies Deployed</a></li>
-			<li><a href="index2.html">Positions</a></li>
-			<li><a href="index2.html">Students</a></li>
-			<li><a href="index2.html">Collaborations</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="projects">Projects</a></li>
+			<li><a href="Training">Training</a></li>
+			<li><a href="/">Technologies Deployed</a></li>
+			<li><a href="/">Positions</a></li>
+			<li><a href="/">Students</a></li>
+			<li><a href="/">Collaborations</a></li>
+			<li><a href="/">Contact</a></li>
 		</ul>
 	</div>`,
         content:`<div id="page_content" style="left: 0px; top: 0px; width: 100%">
