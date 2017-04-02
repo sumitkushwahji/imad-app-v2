@@ -134,9 +134,9 @@ var navigations={
 	
         content:`
 	<!-- Begin Page Content -->
-	<div>
+	<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
 		<!-- Begin Left Column -->
-		<div>
+		<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
 			<h2 class="auto-style4">&nbsp;</h2>
 			<h2 class="auto-style4">Current Running Projects</h2>
