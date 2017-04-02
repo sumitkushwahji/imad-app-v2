@@ -164,7 +164,7 @@ app.get('/:articleName',function(req, res)  //make request query parameters /sub
 
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style2.css'));
+  res.sendFile(path.join(__dirname, 'styles', 'style2.css'));
 });
 
 app.get('/ui/main.js', function (req, res) {
