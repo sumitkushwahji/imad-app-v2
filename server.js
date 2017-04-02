@@ -132,53 +132,35 @@ var navigations={
     'Projects':{
     
 	
-        content:`<div id="page_content" style="left: 0px; top: 0px; width: 100%">
+        content:`
+	<!-- Begin Page Content -->
+	<div id="page_content" style="left: 0px; top: 0px; width: 100%">
 		<!-- Begin Left Column -->
 		<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
-			<h1 class="auto-style1">&nbsp;<img alt="" height="250" src="https://pbs.twimg.com/profile_images/799616901789925376/XeV65FpD.jpg" style="float: left" width="250" /></h1>
-			<p class="auto-style2" style="height: 28px">&nbsp;<strong>
-			<span class="auto-style4">Sumit kushwah</span></strong></p>
-			<p class="auto-style2" style="height: 28px">&nbsp; <strong>
-			Computer Science &amp; Engineer</strong></p>
-			<p class="auto-style2" style="height: 28px">&nbsp; CSE, VIDISHA</p>
+			<h2 class="auto-style4">&nbsp;</h2>
+			<h2 class="auto-style4">Current Running Projects</h2>
+			<h3>AgriMarket</h3>
+			<p>Institution: Sati vidisha</p>
+			<p>It is an android application which keeps update about nearest market price for the farmer </p>
 			
-			<p class="auto-style2" style="height: 28px">&nbsp;
-			<a href="documents/Latest Resume2.pdf">Curriculam-Vitae</a> 
-			(updated March 2017)&nbsp;</p>
-			<p class="auto-style2" style="height: 23px">&nbsp;</p>
-			<h2 class="auto-style2" style="height: 27px; width: 591px">Research 
-			Interests</h2>
-			<p  style="height: 36px; width: 833px; text-align:justify" class="auto-style2" >
-			My research interests are in the area of mobile systems and 
-			applications. I am working to provide middlware solutions for 
-			building collaborative applications in the domain of crowd-sourcng 
-			and energy monitoring.&nbsp; </p>
-			<p  style="height: 50px; width: 833px; text-align:justify" class="auto-style2" >
-			I am also very much 
-			interested in using my research for societal development of India 
-			and doing research which is valid in the context of developing countries. 
-			Towards this, I am specifically interested into the areas of 
-			information disemination platforms such IVRs and mobile healthcare. 
-			</p>
-			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
-			&nbsp;I enjoy applied research and like to see 
-			real-world deployment of my work. We have created several 
-			techologies in the above mentioned areas with successful 
-			deployments.&nbsp;&nbsp; </p>
-			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
-			To know more about my research, please click
-			<a href="http://www.iiitd.edu.in/~pushpendra/projects.html">here</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
-			<p  style="height: 209px; width: 833px; text-align:justify" class="auto-style2" >
-			&nbsp;</p>
-			<p  style="height: 209px; width: 833px; text-align:justify" class="auto-style2" >
-			<br />
-			</p>
-			<!-- #EndEditable --></div>
-		<!-- End Left Column -->
-		<!-- Begin Right Column -->
-		<!-- End Right Column --></div>
-	`
+			<h3>&nbsp;</h3>
+			<h3>Room Rent Application</h3>
+			
+			<p>Today Every student who are studying abroad or far from their home 
+			facing the most generous problem where to live and how to search room available near 
+			to their coaching center so we are desigining an app which will help to finding room 
+			in their precise location</p>
+			
+			<h3>&nbsp;</h3>
+			<h3>Desktop-IceCream-Parlour </h3>
+			
+			<p align="justify">It is java based application in which java GUI used for 
+			frontend and Oracle Database for backend ,Both are connectd by Jdbc for
+			manipulating the data stored in databse through java. </p>
+		
+			
+`
     },
     
     'Training':{
