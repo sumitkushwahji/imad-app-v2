@@ -159,7 +159,8 @@ var navigations={
 			frontend and Oracle Database for backend ,Both are connectd by Jdbc for
 			manipulating the data stored in databse through java. </p>
 		
-			
+		</div>
+		</div>
 `
     },
     
