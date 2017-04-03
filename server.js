@@ -176,7 +176,7 @@ var navigations={
 		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
 			<h2 class="auto-style4">&nbsp;</h2>
-			<h2 class="auto-style4">Advance Java certificate <img src="images.jpg" alt="Smiley face" align="bottom"></h2>
+			<h2 class="auto-style4">Advance Java certificate </h2>
 			<h3>Oracle 11g</h3>
 			<p>Institution: Sati vidisha</p>
 			<p>Oracle database (Oracle DB) is a relational database management system (RDBMS) from the Oracle Corporation</p>
