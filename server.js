@@ -201,7 +201,8 @@ var navigations={
 		<!-- Begin Left Column -->
 		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
-			<h2 class="auto-style4">&nbsp;</h2>
+			<h2 class="auto-style4" > &nbsp; 
+			</h2>
 			<h2 class="auto-style4">Industrial Training</h2>
 			<h3>Oracle 11g</h3>
 			<p>Institution: Sati vidisha</p>
