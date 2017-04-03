@@ -158,6 +158,12 @@ var navigations={
 			<p align="justify">It is java based application in which java GUI used for 
 			frontend and Oracle Database for backend ,Both are connectd by Jdbc for
 			manipulating the data stored in databse through java. </p>
+			
+			
+			
+			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
+			To know more about my research, please click
+			<a href="http://www.iiitd.edu.in/~pushpendra/projects.html">here</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
 		
 		</div>
 		</div>
