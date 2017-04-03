@@ -134,7 +134,7 @@ var navigations={
 	
         content:`
 	<!-- Begin Page Content -->
-	<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
+	<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
 		<!-- Begin Left Column -->
 		<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
@@ -169,9 +169,9 @@ var navigations={
 
         content:`
         <!-- Begin Page Content -->
-	<div>
+	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
 		<!-- Begin Left Column -->
-		<div>
+		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
 			<h2 class="auto-style4">&nbsp;</h2>
 			<h2 class="auto-style4">Industrial Training</h2>
@@ -193,7 +193,7 @@ var navigations={
         content:`
 	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
 		<!-- Begin Left Column -->
-		<div id="column_l" class="auto-style1" style="left: 0px; top: 0px; width: 833px">
+		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
 		
 			<h3>Mailing Address</h3>
