@@ -189,13 +189,13 @@ var navigations={
 			<h3>&nbsp;</h3>
 			
 		</div>
-		</div>``
+		</div>`
     },
     
     'Training':{
        
 
-        content:``
+        content:`
         <!-- Begin Page Content -->
 	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
 		<!-- Begin Left Column -->
