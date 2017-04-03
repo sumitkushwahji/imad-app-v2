@@ -1,3 +1,19 @@
+//Printing a pdf file
+var pdf=document.getElementById('Latest_Resume');
+Latest_Resume.onClick=function printDocument(documentId) {
+    var doc = document.getElementById(documentId);
+
+    //Wait until PDF is ready to print    
+    if (typeof doc.print === 'undefined') {    
+        setTimeout(function(){printDocument(documentId);}, 1000);
+    } else {
+        doc.print();
+    }
+};
+
+
+
+
 //counter code
 var button = document.getElementById('counter');
 
