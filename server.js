@@ -169,6 +169,28 @@ var navigations={
 		</div>
 `
     },
+    'Certificate':{
+        content:` <!-- Begin Page Content -->
+	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
+		<!-- Begin Left Column -->
+		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
+			<!-- #BeginEditable "content" -->
+			<h2 class="auto-style4">&nbsp;</h2>
+			<h2 class="auto-style4">Advance Java certificate <img src="images.jpg" alt="Smiley face" align="bottom"></h2>
+			<h3>Oracle 11g</h3>
+			<p>Institution: Sati vidisha</p>
+			<p>Oracle database (Oracle DB) is a relational database management system (RDBMS) from the Oracle Corporation</p>
+			
+			<h3>&nbsp;</h3>
+			<h3>Advance Java(JEE) </h3>
+			
+			<p>It is based on java technology for the development of Web Application</p>
+			
+			<h3>&nbsp;</h3>
+			
+		</div>
+		</div>``
+    },
     
     'Training':{
        
