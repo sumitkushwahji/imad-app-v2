@@ -342,6 +342,9 @@ app.get('/:articleName',function(req, res)  //make request query parameters /sub
 
 
 
+app.get('/ui/Latest Resume2.pdf', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Latest Resume2.pdf'));
+});
 
 
 app.get('/styles/style2.css', function (req, res) {
