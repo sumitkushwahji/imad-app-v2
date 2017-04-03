@@ -281,7 +281,7 @@ function createTemplate2(data){
 			<li><a href="/">Positions</a></li>
 			<li><a href="/">Students</a></li>
 			<li><a href="/">Collaborations</a></li>
-			<li><a href="/">Contact</a></li>
+			<li><a href="Contact">Contact</a></li>
 		</ul>
 	</div>
 	<!-- End Navigation -->
