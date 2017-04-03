@@ -197,7 +197,7 @@ var navigations={
 
         content:`
         <!-- Begin Page Content -->
-	<div id="page_content" style="left: 0px; top: 0px; width: 100%">
+	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
 		<!-- Begin Left Column -->
 		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
 			<!-- #BeginEditable "content" -->
