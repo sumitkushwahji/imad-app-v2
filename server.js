@@ -199,7 +199,8 @@ var navigations={
 			<h3>Oracle 11g</h3>
 			<p>Institution: Sati vidisha</p>
 			<p>Oracle database (Oracle DB) is a relational database management system (RDBMS) from the Oracle Corporation</p>
-			
+			<p>Training covered all important point in very deap with practicles </p>
+			<p>It was of 25 days held in sati vidisha</p>
 			<h3>&nbsp;</h3>
 			<h3>Advance Java(JEE) </h3>
 			
