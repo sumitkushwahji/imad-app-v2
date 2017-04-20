@@ -288,7 +288,7 @@ var navigations={
 			vidhya vihar <br />
 			bhopal 426026 <br />
 			India</p>
-			<p style="width: 317px">&nbsp;<img alt="" height="186" src="ui/Screenshot (118).PNG" width="413" /></p>
+			<p style="width: 317px">&nbsp;<img alt="" height="200" src="ui/Screenshot (118).PNG" width="413" /></p>
 			<h4>Landmarks</h4>
 			<ol>
 				<li>Vidhya vihar </li>
