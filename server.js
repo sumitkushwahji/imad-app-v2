@@ -302,14 +302,13 @@ function createTemplate2(data){
 	<!-- Begin Navigation -->
 	<div id="navigation">
 		<ul>
+			
 			<li><a href="/">Home</a></li>
 			<li><a href="Projects">Projects</a></li>
 			<li><a href="Training">Training</a></li>
-			<li><a href="/">Technologies Deployed</a></li>
+			<li><a href="Certificate">Certification</a></li>
 			<li><a href="/">Positions</a></li>
 			<li><a href="/">Students</a></li>
-			<li><a href="/">Collaborations</a></li>
-			<li><a href="Contact">Contact</a></li>
 		</ul>
 	</div>
 	<!-- End Navigation -->
