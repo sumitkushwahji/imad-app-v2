@@ -217,6 +217,32 @@ var navigations={
 			
 		</div>
 		</div>`   },
+		'Education':{
+		    content:`<!-- Begin Page Content -->
+	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
+		<!-- Begin Left Column -->
+		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
+			<!-- #BeginEditable "content" -->
+			<h2 class="auto-style4" > &nbsp; 
+			</h2>
+			<h2 class="auto-style4">Education</h2>
+			<h3>Bachelor of Engineering</h3>
+			
+			<p>Samrat Ashok Technological Institute vidisha (4 year course) Graduation May 2017</p>
+			<p>Address: Civil Lines, Vidisha, Madhya Pradesh 464001</p>
+			<p>I am doing my engineering as computer Science as my branch.</p>
+			
+			<h3>&nbsp;</h3>
+			<h3>Advance Java(JEE) </h3>
+			
+			<p>It is based on java technology for the development of Web Application</p>
+			
+			<h3>&nbsp;</h3>
+			
+		</div>
+		</div>
+		    `
+		},
     'Contact':{
         content:`
 	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
