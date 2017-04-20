@@ -293,10 +293,7 @@ function createTemplate2(data){
 <div id="container">
 	<!-- Begin Masthead -->
    	<div id="masthead">
-		<img alt="" height="105" src="https://upload.wikimedia.org/wikipedia/commons/4/44/SATI_Vidisha.jpg" width="150" /><p>mobile (+91) 
-		94799-66498<br />
-		std (+91) (0) 11 26907-405<br />
-		</p>
+		<img alt="" height="105" src="https://upload.wikimedia.org/wikipedia/commons/4/44/SATI_Vidisha.jpg" width="150" />
 	</div>
 	<!-- End Masthead -->
 	<!-- Begin Navigation -->
