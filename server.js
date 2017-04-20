@@ -175,6 +175,8 @@ var navigations={
 			
 			<p>Team member: Albel singh Bhargav,</p>
 			<p>Technology used: JAVA</p>
+			<p>DataBase: Oracle</p>
+			<p>connectivity: through JDBC</p>
 			<p>platform: Android</p>
 			<p>Tools & IDE: Netbeans and Intellij</p>
 			
