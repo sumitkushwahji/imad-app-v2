@@ -337,7 +337,7 @@ function createTemplate2(data){
 			<li><a href="Projects">Projects</a></li>
 			<li><a href="Training">Training</a></li>
 			<li><a href="Certificate">Certification</a></li>
-			<li><a href="/">Positions</a></li>
+			<li><a href="Education">Education</a></li>
 			<li><a href="/">Students</a></li>
 			<li><a href="/">Contact</a><li>
 		</ul>
