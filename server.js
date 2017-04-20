@@ -149,6 +149,7 @@ var navigations={
 			through this app farmer will be able to know the market price of commudity from different mandies</p>
 			<p>It is an android application which keeps update about nearest market price for the farmer </p>
 			
+			<p>Team member: Kaptan singh Dangi, Murari meena</p>
 			<p>Technology used: JAVA</p>
 			<p>platform: Android</p>
 			<p>Tools & IDE: Android Studio</p>
@@ -160,6 +161,10 @@ var navigations={
 			facing the most generous problem where to live and how to search room available near 
 			to their coaching center so we are desigining an app which will help to finding room 
 			in their precise location</p>
+			
+			<p>Technology used: JAVA</p>
+			<p>platform: Android</p>
+			<p>Tools & IDE: Netbeans</p>
 			
 			<h3>&nbsp;</h3>
 			<h3>Desktop-IceCream-Parlour </h3>
