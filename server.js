@@ -177,7 +177,7 @@ var navigations={
 			<p>Technology used: JAVA</p>
 			<p>DataBase: Oracle</p>
 			<p>connectivity: through JDBC</p>
-			<p>platform: Android</p>
+			<p>platform: Desktop Application</p>
 			<p>Tools & IDE: Netbeans and Intellij</p>
 			
 			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
