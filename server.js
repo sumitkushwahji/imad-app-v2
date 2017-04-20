@@ -233,11 +233,18 @@ var navigations={
 			<p>I am doing my engineering as computer Science as my branch.</p>
 			
 			<h3>&nbsp;</h3>
-			<h3>Advance Java(JEE) </h3>
-			
-			<p>It is based on java technology for the development of Web Application</p>
+			<h3>Intermediate</h3>
+			<p>Tulica convent Higher Secondary school Morena (passed in May 2012)</p>
+			<p>Address: Gandhi Colony, Gopal Pura, Morena, Madhya Pradesh 476001</p>
+			<p>I did my schooling from this school in 2012 with 76%.</p>
 			
 			<h3>&nbsp;</h3>
+			
+				<h3>High school</h3>
+			<p>Tulica convent Higher Secondary school Morena (passed in May 2010)</p>
+			<p>Address: Gandhi Colony, Gopal Pura, Morena, Madhya Pradesh 476001</p>
+			<p>I did my schooling from this school in 2010 with 76%.</p>
+			
 			
 		</div>
 		</div>
