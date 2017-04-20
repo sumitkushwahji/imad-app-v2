@@ -163,7 +163,7 @@ var navigations={
 			
 			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
 			To know more about my projects, please click
-			<a href="http://www.iiitd.edu.in/~pushpendra/projects.html">here</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+			<a href="http://sumitkushwahji.imad.hasura-app.io/Projects">here</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
 		
 		</div>
 		</div>
