@@ -142,13 +142,17 @@ var navigations={
 			<h2 class="auto-style4">Current Running Projects</h2>
 			<h3>AgriMarket</h3>
 			<p>Institution: Sati vidisha</p>
-			<p>Agriculture sector needs well functioning markets to drive growth, employment and 
+			<p>Description: Agriculture sector needs well functioning markets to drive growth, employment and 
 			economic prosperity in rural areas of the country. In order to provide dynamism and 
 			efficiency in the marketing system,we are designning an android app which will be 
 			beneficial for the farmer in the context of price of verious commudity in various mandies
 			through this app farmer will be able to know the market price of commudity from different mandies</p>
 			<p>It is an android application which keeps update about nearest market price for the farmer </p>
 			
+			<p>Technology used: JAVA</p>
+			<p>platform: Android</p>
+			<p>Tools & IDE: Android Studio</p>
+		
 			<h3>&nbsp;</h3>
 			<h3>Room Rent Application</h3>
 			
