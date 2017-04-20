@@ -164,7 +164,7 @@ var navigations={
 			
 			<p>Technology used: JAVA</p>
 			<p>platform: Android</p>
-			<p>Tools & IDE: Netbeans</p>
+			<p>Tools & IDE: Android Studio</p>
 			
 			<h3>&nbsp;</h3>
 			<h3>Desktop-IceCream-Parlour </h3>
@@ -173,7 +173,10 @@ var navigations={
 			frontend and Oracle Database for backend ,Both are connectd by Jdbc for
 			manipulating the data stored in databse through java. </p>
 			
-			
+			<p>Team member: Albel singh Bhargav,</p>
+			<p>Technology used: JAVA</p>
+			<p>platform: Android</p>
+			<p>Tools & IDE: Netbeans and Intellij</p>
 			
 			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
 			To know more about my projects, please click
