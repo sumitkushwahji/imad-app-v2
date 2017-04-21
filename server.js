@@ -204,7 +204,7 @@ var navigations={
 			<h3>Advance Java(JEE) </h3>
 			<p>It is based on java technology for the development of Web Application</p>
 			<p>Instructor: Rohit Ahuja</p>
-			<a href="https://drive.google.com/open?id=0B7PYN0J0ldPBMWxxTVNFTVh1Z2c">here</a>
+			<a href="https://drive.google.com/open?id=0B7PYN0J0ldPBMWxxTVNFTVh1Z2c">Clicj here for certificate</a>
 			
 			
 			<h3>&nbsp;</h3>
