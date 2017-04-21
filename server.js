@@ -218,6 +218,13 @@ var navigations={
 			
 			<p>Instructor : Sachin Kapoor(A2I pvt.ltd bhopal)</p>
 			<p>Address: Maansarovar comlex Habibganj Road bhopal</p>
+			<h3>&nbsp;</h3>
+			<h3>C & C++</h3>
+			<p>C is the basic programming language in the field of language and it also called father of programmming language </p>
+			<p>C++ is Object Oriented Programming language. it just advanced than C</p>
+			<p>Instructor : Sachin Kapoor(A2I pvt.ltd bhopal)</p>
+				<a href="https://drive.google.com/open?id=0B7PYN0J0ldPBN01Oa2w3RG8taDQ">Click here for certificate</a>
+			
 			
 		</div>
 		</div>`
