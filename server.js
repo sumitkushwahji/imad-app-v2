@@ -297,6 +297,7 @@ function createTemplate2(data){
 			<li><a href="Education">Education</a></li>
 			<li><a href="/">Students</a></li>
 			<li><a href="Contact">Contact</a><li>
+			<li><a href="Extra-curricular">Extra-curricular</a><li>
 		</ul>
 	</div>
 	<!-- End Navigation -->
