@@ -221,7 +221,7 @@ var navigations={
 			bhopal 426026 <br />
 			India</p>
 			
-			<p style="width: 317px">&nbsp;<img alt="" height="186" src="ui/Screenshot (118).png" width="413" /></p>
+			<p style="width: 317px">&nbsp;<img alt="" height="186" src="ui/Screenshot.png" width="413" /></p>
 
 			<h4>Landmarks</h4>
 			<ol>
@@ -367,8 +367,8 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/ui/Screenshot (118).png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Screenshot (118).png'));
+app.get('/ui/Screenshot.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Screenshot.png'));
 });
 
 
