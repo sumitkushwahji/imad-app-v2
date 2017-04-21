@@ -203,12 +203,15 @@ var navigations={
 			<h3>&nbsp;</h3>
 			<h3>Advance Java(JEE) </h3>
 			<p>It is based on java technology for the development of Web Application</p>
+			<p>Instructor: Rohit Ahuja</p>
+			<a href="https://drive.google.com/open?id=0B7PYN0J0ldPBMWxxTVNFTVh1Z2c">here</a>
+			
 			
 			<h3>&nbsp;</h3>
 			<h3>core java (JSE) </h3>
-			<p>core java comes under latest technology which provides very basic concept in programming language  </p>
-			<p>today it's play a very big role in IOT </p>
-			<p>Almost technology based on java</p>
+			<p>core java comes under latest technology which provides very basic concept in programming language  
+			today it's play a very big role in IOT 
+			Almost technology based on java</p>
 			
 			<p>Instructor : Sachin Kapoor(A2I pvt.ltd bhopal)</p>
 			<p>Address: Maansarovar comlex Habibganj Road bhopal</p>
