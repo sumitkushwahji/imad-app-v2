@@ -221,7 +221,7 @@ var navigations={
 			bhopal 426026 <br />
 			India</p>
 			
-			<p style="width: 317px">&nbsp;<img alt="" height="186" src="ui/madi.png" width="413" /></p>
+			<p style="width: 317px">&nbsp;<img alt="" height="186" src="ui/Screenshot (118).png" width="413" /></p>
 
 			<h4>Landmarks</h4>
 			<ol>
