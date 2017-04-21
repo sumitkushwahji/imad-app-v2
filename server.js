@@ -249,7 +249,7 @@ var navigations={
 			<p>Training covered all important point in very deap with practicles </p>
 			<p>It was of 25 days held in sati vidisha</p>
 			<p>We have completed our trainig under the guidance of-</p>
-			<p>Satish pawar</p>
+			<p>Pankaj Jain</p>
 			<p>vijay shah</p>
 			<p>Gagan vishwakarma</p>
 			<h3>&nbsp;</h3>
