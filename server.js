@@ -368,7 +368,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/ui/Screenshot (118).png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'Screenshot (118).png'));
 });
 
 
