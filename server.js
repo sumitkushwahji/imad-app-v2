@@ -225,7 +225,7 @@ var navigations={
 			<p>Instructor : Sachin Kapoor(A2I pvt.ltd bhopal)</p>
 				<a href="https://drive.google.com/open?id=0B7PYN0J0ldPBN01Oa2w3RG8taDQ">Click here for certificate</a>
 			
-			
+				<h3>&nbsp;</h3>
 		</div>
 		</div>`
     },
