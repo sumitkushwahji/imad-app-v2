@@ -200,7 +200,7 @@ var navigations={
 			<p>Institution: Sati vidisha</p>
 			<p>Oracle database (Oracle DB) is a relational database management system (RDBMS) from the Oracle Corporation</p>
 			<p>Instructor: Pankaj Jain</p>
-			<p>organisation: Sati vidisha</p>
+			
 			<a href="https://drive.google.com/open?id=0B7PYN0J0ldPBZ1FzY0h1Z244NkU">Click here for certificate</a>
 			
 			<h3>&nbsp;</h3>
