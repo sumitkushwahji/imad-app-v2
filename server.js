@@ -220,6 +220,9 @@ var navigations={
 			vidhya vihar <br />
 			bhopal 426026 <br />
 			India</p>
+			
+			<p style="width: 317px">&nbsp;<img alt="" height="186" src="ui/Screenshot (118).png" width="413" /></p>
+
 			<h4>Landmarks</h4>
 			<ol>
 				<li>Vidhya vihar </li>
@@ -237,9 +240,6 @@ function createTemplate2(data){
    
     var navigation = data.navigation;
     var content = data.content;
-    
-    
-    
     var htmltemplate=`<!DOCTYPE html>
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -330,14 +330,11 @@ app.get('/submit-name',function(req, res)  //make request query parameters /subm
 {
     //get the name from the request
     var name=req.query.name;
-    
     names.push(name);
     //JSON: javascript OBject notation
     res.send(JSON.stringify(names));
     
 });
-
- 
 
 app.get('/:navigation',function (req, res){
   var navigation = req.params.navigation;
@@ -349,20 +346,14 @@ app.get('/:articleName',function(req, res)  //make request query parameters /sub
 {
     //get the name from the request
     var name=req.query.name;
-    
     names.push(name);
     //JSON: javascript OBject notation
     res.send(JSON.stringify(names));
-    
 });
-
-
-
 
 app.get('/ui/Latest_Resume2.pdf', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Latest_Resume2.pdf'));
 });
-
 
 app.get('/styles/style2.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'styles', 'style2.css'));
@@ -376,6 +367,9 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+app.get('/ui/Screenshot (118).png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
