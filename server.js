@@ -14,120 +14,6 @@ app.get('/index.html', function (req, res) {
 });
 
 
-
-
-var articles= {
-'article-one': {
-    title: 'article-one | sumit kushwah',
-    heading: 'Article-One',
-    date: '5 sep 2017',
-    content:`<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>
-<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>
-
-<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>`,
-comment: `<div class ="fotter">
-<hr/>
-<input type="text" id="comment_box1" placeholder="comment" ></input>
-<input type="submit" value="comment" id="comment_btn1"></input>
-<ul id="commentlist1">
-
-</ul>
-</div>`
-
-},
-'article-two': {
-    title:'article-two | sumit kushwah',
-    heading: 'Article-Two',
-    date: '10 sep 2017',
-    content:`<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>
-<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>
-
-<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>`,
-comment: `<div class ="fotter">
-<hr/>
-<input type="text" id="comment_box2" placeholder="comment" ></input>
-<input type="submit" value="comment" id="comment_btn2"></input>
-<ul id="commentlist2">
-
-</ul>
-</div>`
-},
-'article-three': {
-    title:'article-three | sumit kushwah',
-    heading: 'Article-three',
-    date: '5 oct 2017',
-    content:`<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>
-<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>
-
-<p>
-my name is sumie kusheahajjvd hjdbhbc jhbchbshbcns j s sjh hsd h s js jhs jsd sjhdh js jh sdd
-</p>`,
-comment: `<div class ="fotter">
-<hr/>
-<input type="text" id="comment_box3" placeholder="comment" ></input>
-<input type="submit" value="comment" id="comment_btn3"></input>
-<ul id="commentlist3">
-
-</ul>
-</div>`
-}
-};
-function createTemplate(data){ 
-    var title= data.title;
-    var date= data.date;
-    var heading= data.heading;
-    var content= data.content;
-    var comment= data.comment;
-    
-    var htmlTemplate = `<html>
-    <head>
-        <title>
-            ${title}
-        </title>
-        <meta name= "viewport" content= "width-device=width , initial-scale=1"/>
-       <link href="/ui/style.css" rel="stylesheet" />
-          </head>
-    <body>
-      <div class="container">  <div>
-         <a href="/">HOME</a>
-         </div>
-         <hr/>
-         <h3>
-           ${heading}
-             </h3>
-         <div>
-        <p3>
-       ${date}
-        </p3>
-        </div>
-    ${content}
-     
-        <div>
-    ${comment}
-        </div>
-           </div>
-    
-    </body>
-</html>`;
-return htmlTemplate;
-}
-
 var navigations={
     'Projects':{
     
@@ -293,6 +179,33 @@ var navigations={
 			
 		</div>
 		</div>
+		    `
+		},
+		'Extra-curricular':{
+		    content:`	<div id="page_content" style="right: 0px; top: 0px; width: 100%">
+		<!-- Begin Left Column -->
+		<div id="column_l" class="auto-style2" style="left: 0px; top: 0px; width: 833px">
+			<!-- #BeginEditable "content" -->
+            <h3>Army Attachment Camp</h3>
+            <p>We have joined Ncc organisation in 2013 during which I attended a Army Attachment Camp.It was 15 day visiting camp 
+            in jhansi, where we visit so many army places and learn how they live,what they eat and how they react to a problem or situation during the war.And we learnt how to fire a gun (INSAS RIFFLE 5.56).From this camp we have learnt Disciplane and much more .
+            </p>
+            &nbsp;
+			<h3>Special Police Officer</h3>
+			<p>Since we are an Ncc candidate,So we are elected for the election 2014 during which we made a role play of 
+			Special Police Officer</p>
+			&nbsp;
+			<h3>Codvita-5</h3>
+			<p>Participated in The Tcs Global Coding Contest.It was organised by the tcs itself and cleared 1st round</p>
+			&nbsp;
+			<h3>Anecode-0010</h3>
+			<p>it is an online coding contest organised by Crisp Vidisha.And I cleared 1st Round </p>
+			&nbsp;
+			<h3></h3>
+			<!-- #EndEditable --></div>
+		<!-- End Left Column -->
+		<!-- Begin Right Column -->
+		<!-- End Right Column --></div>
 		    `
 		},
     'Contact':{
