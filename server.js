@@ -137,8 +137,8 @@ var navigations={
 			<p>It was of 25 days held in sati vidisha</p>
 			<p>We have completed our trainig under the guidance of-</p>
 			<p>Pankaj Jain</p>
-			<p>Satish Pawar</p>
-			<p>Gagan Vishwakarma</p>
+			<p>Asst.prof. Satish Pawar</p>
+			<p>Asst. prof. Gagan Vishwakarma</p>
 			<h3>&nbsp;</h3>
 			<h3>Advance Java(JEE) </h3>
 			
