@@ -66,9 +66,7 @@ var navigations={
 			<p>platform: Desktop Application</p>
 			<p>Tools & IDE: Netbeans and Intellij</p>
 			
-			<p  style="height: 97px; width: 833px; text-align:justify" class="auto-style2" >
-			To know more about my projects, please click
-			<a href="http://sumitkushwahji.imad.hasura-app.io/Projects">here</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		</div>
 		</div>
