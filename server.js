@@ -67,6 +67,7 @@ var navigations={
 			<p>Tools & IDE: Netbeans and Intellij</p>
 			
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		
 		
 		
